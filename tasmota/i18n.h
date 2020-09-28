@@ -729,6 +729,16 @@
 // Commands xdrv_60_shift595.ino - 74x595 family shift register driver
 #define D_CMND_SHIFT595_DEVICE_COUNT "Shift595DeviceCount"
 
+// Commands xdrv_53_irmp.ino
+#define D_JSON_IRMP "Irmp"
+#define D_JSON_IRMP_NAME "Name"
+#define D_JSON_IRMP_PROTO "Protocol"
+#define D_JSON_IRMP_ADDR "Address"
+#define D_JSON_IRMP_CMD "Command"
+#define D_JSON_IRMP_FLAGS "Flags"
+#define D_CMND_IRSND "Irsnd"
+#define D_JSON_IRSND_SYNTAX "Invalid syntax"
+
 // Commands xsns_02_analog.ino
 #define D_CMND_ADCPARAM "AdcParam"
 

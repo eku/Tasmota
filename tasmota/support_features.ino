@@ -809,8 +809,10 @@ void ResponseAppendFeatures(void)
 #ifdef USE_FLOWRATEMETER
     feature8 |= 0x08000000;  // xsns_96_flowratemeter.ino
 #endif
+#ifdef USE_IRMP
+    feature8 |= 0x10000000;  // xdrv_63_irmp.ino
+#endif
 
-//    feature8 |= 0x10000000;
 //    feature8 |= 0x20000000;
 //    feature8 |= 0x40000000;
 //    feature8 |= 0x80000000;
